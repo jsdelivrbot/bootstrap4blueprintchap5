@@ -103,7 +103,7 @@ gulp.task('compile-html:reset', function(done) {
 });
 
 gulp.task('compile-js', function() {
-  return gulp.src([bowerpath+ 'jquery/dist/jquery.min.js', bowerpath+ 'tether/dist/js/tether.min.js', bowerpath+ 'bootstrap/dist/js/bootstrap.min.js'])
+  return gulp.src([bowerpath+ 'jquery/dist/jquery.min.js', bowerpath+ 'tether/dist/js/tether.min.js', bowerpath+ 'bootstrap/dist/js/bootstrap.min.js','js/main.js'])
     .pipe(concat('app.js'))
     .pipe(gulp.dest('./_site/js/'));
 });

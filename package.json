@@ -33,5 +33,9 @@
   },
   "author": "Bass Jobsen <bass@w3masters.nl> (http://bassjobsen.weblogs.fm)",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "font-awesome": "^4.7.0"
+  }
 }

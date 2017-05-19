@@ -10,7 +10,8 @@
   "homepage": "https://github.com/bassjobsen/empty-bootstrap-project-gulp/",
   "dependencies": {
     "bootstrap": "4",
-    "tether": "^1.1.2"
+    "tether": "^1.1.2",
+    "font-awesome": "^4.6.1"
   },
   "ignore": [
     "**/.*",
